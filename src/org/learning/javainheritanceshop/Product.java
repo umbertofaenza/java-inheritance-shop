@@ -60,7 +60,7 @@ public class Product {
     }
 
     public String getDetails() {
-        return "Product details: " + String.format("%s, %s, %s, %s, %s, %s", code, name, brand, price, vat, getVatPrice());
+        return String.format("%s, %s, %s, %s, %s, %s", code, name, brand, price, vat, getVatPrice());
     }
 
     private int generateCode() {

@@ -30,6 +30,6 @@ public class Headphones extends Product{
 
     @Override
     public String getDetails() {
-        return "Product details: " + String.format("%s, %s, %s, %s, %s, %s, %s, %s", getCode(), getName(), getBrand(), getPrice(), getVat(), getVatPrice(), color, isWireless);
+        return String.format("%s, %s, %s, %s, %s, %s, %s, %s", getCode(), getName(), getBrand(), getPrice(), getVat(), getVatPrice(), color, isWireless);
     }
 }
